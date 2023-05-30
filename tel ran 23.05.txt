@@ -1,0 +1,16 @@
+ckage HOMEWORK;
+
+import javax.management.MBeanAttributeInfo;
+import java.util.Scanner;
+
+public class HOMEWORK23 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("введите целое число: ");
+        int q = sc.nextInt();
+        System.out.println("десятичные" + q);
+        System.out.println("восьмиричные" + Integer.toOctalString(q));
+        System.out.println("Двоичные" + Integer.toBinaryString(q));
+        System.out.println("шеснадцатиричные" + Integer.toHexString(q));
+    }
+}
